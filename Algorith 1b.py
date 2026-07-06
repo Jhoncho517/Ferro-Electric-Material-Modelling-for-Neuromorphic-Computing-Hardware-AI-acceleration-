@@ -76,7 +76,7 @@ def run_mc(N, E_app, params, t_grid, seed):
                      params['p'], params['q'], rng)
 
     # 2. Initialization
-    s   = -np.ones(N, dtype=np.int8)                       # all grains at -P_R
+    s   = -np.ones(N, dtype=np.int8)                       # all grains at -P_R/-P_S (Polarization reverse state or saturated state)
     tau = params['tau_inf'] * np.exp((Ea / E_app) ** params['alpha'])
 
     frac = np.zeros_like(t_grid)
@@ -90,14 +90,14 @@ def run_mc(N, E_app, params, t_grid, seed):
             frac[k:] = 1.0
             break
 
-        tau_u = tau[unsw]
+        tau_u = tau[unsw] #unswitched grains' time constants
         P_sw  = 1.0 - np.exp((t0 / tau_u) ** beta_w
                              - (t1 / tau_u) ** beta_w)
         P_sw  = np.clip(P_sw, 0.0, 1.0)
 
         flips = rng.random(P_sw.size) < P_sw
         s[np.where(unsw)[0][flips]] = 1
-        frac[k] = (s == 1).mean()
+        frac[k] = (s == 1).mean() 
 
     polarization = params['P_R'] * (2.0 * frac - 1.0)
     return frac, polarization
