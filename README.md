@@ -1,1 +1,1 @@
-<iframe src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Jhoncho517/Ferro-Electric-Material-Modelling-for-Neuromorphic-Computing-Hardware-AI-acceleration-/main/Monte_Carlo_FeFET_Poster.pdf&embedded=true" width="100%" height="600"></iframe>
+[View Monte Carlo FeF Document](./Monte_Carlo_FeF...)
