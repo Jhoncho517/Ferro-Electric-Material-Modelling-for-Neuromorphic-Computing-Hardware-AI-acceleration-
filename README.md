@@ -22,6 +22,12 @@ The results show that the device's memory state can be tuned by changing the str
 
 ### View Reserach Poster
 
-<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/Jhoncho517/Ferro-Electric-Material-Modelling-for-Neuromorphic-Computing-Hardware-AI-acceleration-/main/Monte_Carlo_FeFET_Poster.pdf"></iframe>
+<!doctype html>
+<html>
+<body style="margin:0">
+  <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/OWNER/REPO/main/Monte_Carlo_FeFET_Poster.pdf&embedded=true" style="width:100%;height:100vh;border:0"></iframe>
+</body>
+</html>
+
 
 Or [**Download the Poster PDF directly**](https://github.com/Jhoncho517/Ferro-Electric-Material-Modelling-for-Neuromorphic-Computing-Hardware-AI-acceleration-/raw/main/Monte_Carlo_FeFET_Poster.pdf)
