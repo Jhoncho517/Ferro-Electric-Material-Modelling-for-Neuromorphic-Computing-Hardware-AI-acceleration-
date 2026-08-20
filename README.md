@@ -1,1 +1,1 @@
-![Monte Carlo Ferroelectric Modelling] (Monte_Carlo_FeFET_Poster.pdf)
+[Monte Carlo Ferroelectric Modelling - View PDF](https://github.com/Jhoncho517/Ferro-Electric-Material-Modelling-for-Neuromorphic-Computing-Hardware-AI-acceleration-/raw/main/Monte_Carlo_FeFET_Poster.pdf)
